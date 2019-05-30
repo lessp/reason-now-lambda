@@ -1,0 +1,12 @@
+(executable
+  (name hello_world)
+  (libraries lwt now)
+)
+
+(env
+ (static
+  (flags
+   (:standard -ccopt -static)
+  )
+ )
+)

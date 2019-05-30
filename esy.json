@@ -1,0 +1,16 @@
+{
+  "name": "reason-now",
+  "dependencies": {
+    "@opam/dune": "*",
+    "@opam/lwt": "4.2.1",
+    "@opam/lambda-runtime": "*",
+    "@opam/now": "*",
+    "@opam/reason": "*",
+    "ocaml": "*"
+  },
+  "resolutions": {
+    "@opam/lambda-runtime": "anmonteiro/aws-lambda-ocaml-runtime:lambda-runtime.opam#9b95ff3",
+    "@opam/now": "anmonteiro/aws-lambda-ocaml-runtime:now.opam#9b95ff3"
+  }
+}
+
